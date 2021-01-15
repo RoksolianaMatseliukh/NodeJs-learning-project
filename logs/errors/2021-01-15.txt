@@ -286,3 +286,11 @@
   "timestamp": "2021-01-15 21:26:38",
   "label": "app"
 }
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "label": "app",
+  "timestamp": "2021-01-15 21:58:30"
+}
