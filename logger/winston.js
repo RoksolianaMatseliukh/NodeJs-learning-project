@@ -47,8 +47,8 @@ module.exports = (label) => {
 
     const logger = createLogger({
         format: format.combine(
-            format.timestamp({ format: LOGS_DATE_FORMAT }),
             format.label({ label }),
+            format.timestamp({ format: LOGS_DATE_FORMAT }),
             myFormat
         ),
         transports: [

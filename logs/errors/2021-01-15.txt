@@ -238,3 +238,67 @@
   "timestamp": "2021-01-15 20:25:30",
   "label": "app"
 }
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "timestamp": "2021-01-15 20:42:32",
+  "label": "app"
+}
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "timestamp": "2021-01-15 20:42:38",
+  "label": "app"
+}
+{
+  "message": "not valid token",
+  "code": 401,
+  "customCode": 4011,
+  "level": "error",
+  "timestamp": "2021-01-15 20:42:52",
+  "label": "app"
+}
+{
+  "message": "not valid token",
+  "code": 401,
+  "customCode": 4011,
+  "level": "error",
+  "timestamp": "2021-01-15 20:42:56",
+  "label": "app"
+}
+{
+  "message": "\"value\" must be a number",
+  "code": 400,
+  "customCode": 4004,
+  "level": "error",
+  "timestamp": "2021-01-15 20:43:06",
+  "label": "app"
+}
+{
+  "message": "\"value\" must be a number",
+  "code": 400,
+  "customCode": 4004,
+  "level": "error",
+  "timestamp": "2021-01-15 21:26:38",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 21:26:42",
+  "label": "app"
+}
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "timestamp": "2021-01-15 21:26:56",
+  "label": "app"
+}
