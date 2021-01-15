@@ -1,7 +1,9 @@
 const { Router } = require('express');
 
+const { notFoundController } = require('../../controllers');
+
 const notFoundRouter = Router();
 
-notFoundRouter.all('*', (req, res) => res.status(404).json('ROUTE NOT FOUND'));
+notFoundRouter.all('*', notFoundController.allNotFoundRoutes);
 
 module.exports = notFoundRouter;

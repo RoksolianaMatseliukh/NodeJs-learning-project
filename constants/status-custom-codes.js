@@ -20,5 +20,6 @@ module.exports = {
 
     // NOT_FOUND
     ENTITY_NOT_FOUND_CC: 4041,
-    NO_TOKEN_CC: 4042
+    NO_TOKEN_CC: 4042,
+    NOT_FOUND_ROUTE_CC: 4043
 };

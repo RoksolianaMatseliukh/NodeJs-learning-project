@@ -5,7 +5,7 @@ module.exports = {
     getCars: (where, offset, limit) => {
         const CarModel = db.getModel(CAR);
         const CarFileModel = db.getModel(CAR_FILE);
-
+        console.log(where);
         return CarModel.findAll({
             where,
             include: CarFileModel,
@@ -21,6 +21,12 @@ module.exports = {
         return CarModel.findByPk(id, {
             include: CarFileModel
         });
+    },
+
+    getNumberOfCars: () => {
+        const CarModel = db.getModel(CAR);
+
+        return CarModel.count();
     },
 
     createCar: (car, transaction) => {
@@ -46,11 +52,5 @@ module.exports = {
         await CarModel.destroy({
             where: { id }
         });
-    },
-
-    getNumberOfCars: () => {
-        const CarModel = db.getModel(CAR);
-
-        return CarModel.count();
     }
 };

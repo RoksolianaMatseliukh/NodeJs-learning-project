@@ -7,12 +7,12 @@ const {
 
 module.exports = (req, res, next) => {
     try {
-        const receivedFiles = Object.values(req.files || {});
+        const files = Object.values(req.files || {});
 
         const docs = [];
         const images = [];
 
-        receivedFiles.forEach((file) => {
+        files.forEach((file) => {
             const { mimetype, size } = file;
 
             if (DOCS_MIMETYPES.includes(mimetype)) {

@@ -53,14 +53,20 @@ module.exports = {
         const CarModel = db.getModel(CAR);
         const CarFileModel = db.getModel(CAR_FILE);
 
-        const user = (await UserModel.findByPk(id, {
+        let user = (await UserModel.findByPk(id, {
             attributes: {
                 exclude: [
                     EMAIL,
                     PASSWORD
                 ]
             }
-        })).dataValues;
+        }));
+
+        if (!user) {
+            return;
+        }
+
+        user = user.dataValues;
 
         const relations = await UserWithCarModel.findAll({
             where: {
@@ -94,6 +100,14 @@ module.exports = {
                     { car_id }
                 ]
             }
+        });
+    },
+
+    getNumberOfUsers: (params) => {
+        const UserModel = db.getModel(USER);
+
+        return UserModel.count({
+            where: params
         });
     },
 
@@ -139,14 +153,6 @@ module.exports = {
                     { car_id }
                 ]
             }
-        });
-    },
-
-    getNumberOfUsers: (params) => {
-        const UserModel = db.getModel(USER);
-
-        return UserModel.count({
-            where: params
         });
     }
 };

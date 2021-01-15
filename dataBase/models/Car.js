@@ -1,4 +1,8 @@
-const { dataBaseEnum: { CAR_ASSOCIATION }, modelNamesEnum: { CAR }, tableNamesEnum: { CARS } } = require('../../constants');
+const {
+    dataBaseEnum: { CAR_ASSOCIATION },
+    modelNamesEnum: { CAR },
+    tableNamesEnum: { CARS }
+} = require('../../constants');
 
 module.exports = (client, DataTypes) => {
     const Car = client.define(

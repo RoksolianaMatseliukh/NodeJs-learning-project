@@ -1,5 +1,8 @@
 const { authService } = require('../../services');
-const { JWTEnum: { AUTHORIZATION }, statusCodesEnum: { NO_CONTENT } } = require('../../constants');
+const {
+    JWTEnum: { AUTHORIZATION },
+    statusCodesEnum: { NO_CONTENT }
+} = require('../../constants');
 const { tokenizer } = require('../../helpers');
 const { transactionInstance } = require('../../dataBase').getInstance();
 
@@ -26,6 +29,7 @@ module.exports = {
 
             await authService.deleteTokenPair({ user_id: id }, transaction);
             await authService.createTokenPair({ ...token_pair, user_id: id }, transaction);
+
             await transaction.commit();
 
             res.json(token_pair);
@@ -46,5 +50,5 @@ module.exports = {
         } catch (e) {
             next(e);
         }
-    },
+    }
 };

@@ -3,7 +3,7 @@ const { Sequelize: { Op } } = require('sequelize');
 
 const { authService } = require('../services');
 const {
-    appSettingsEnum: { LOGGED_IN_USERS_MSG },
+    cronJobsEnum: { LOGGED_IN_USERS_MSG },
     dateEnum: { DAY },
     folderFileNamesEnum: { LOGGED_IN_USERS_CONTROL }
 } = require('../constants');

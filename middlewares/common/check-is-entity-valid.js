@@ -1,5 +1,8 @@
 const { ErrorHandler } = require('../../errors');
-const { statusCodesEnum: { BAD_REQUEST }, statusCustomCodes: { NOT_VALID_BODY_CC } } = require('../../constants');
+const {
+    statusCodesEnum: { BAD_REQUEST },
+    statusCustomCodes: { NOT_VALID_BODY_CC }
+} = require('../../constants');
 
 module.exports = (validator) => (req, res, next) => {
     try {

@@ -5,7 +5,6 @@ const { emailActionsEnum: { ACTIVATE_ACCOUNT, RESTORE_ACCOUNT } } = require('../
 const { emailService, logService, userService } = require('../../services');
 const { fileHelper } = require('../../helpers');
 const { folderFileNamesEnum: { PUBLIC, USERS } } = require('../../constants');
-const { passwordHelper: { hash } } = require('../../helpers');
 const {
     logActionsEnum: {
         AVATAR_CHANGED,
@@ -19,6 +18,7 @@ const {
     statusCodesEnum: { CREATED, NO_CONTENT },
     statusMessagesEnum: { CAR_ADDED_TO_USER, ENTITY_EDITED, ENTITY_CREATED }
 } = require('../../constants');
+const { passwordHelper: { hash } } = require('../../helpers');
 const { transactionInstance } = require('../../dataBase').getInstance();
 
 module.exports = {

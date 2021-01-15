@@ -1,6 +1,9 @@
 const { commonValidators: { idValidator } } = require('../../validators');
 const { ErrorHandler } = require('../../errors');
-const { statusCodesEnum: { BAD_REQUEST }, statusCustomCodes: { NOT_VALID_ID_CC } } = require('../../constants');
+const {
+    statusCodesEnum: { BAD_REQUEST },
+    statusCustomCodes: { NOT_VALID_ID_CC }
+} = require('../../constants');
 
 module.exports = (req, res, next) => {
     try {

@@ -1,5 +1,5 @@
-const db = require('../../dataBase').getInstance();
 const { dataBaseEnum: { USER_ID }, modelNamesEnum: { OAUTH, USER } } = require('../../constants');
+const db = require('../../dataBase').getInstance();
 
 module.exports = {
     createTokenPair: async (token_pair, transaction) => {

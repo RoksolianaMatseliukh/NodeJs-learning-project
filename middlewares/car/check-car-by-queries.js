@@ -1,6 +1,6 @@
-const { statusMessagesEnum: { NO_ENTITY_FOUND } } = require('../../constants');
 const { carQueryBuilder } = require('../../helpers');
 const { carService } = require('../../services');
+const { statusMessagesEnum: { NO_ENTITY_FOUND } } = require('../../constants');
 
 module.exports = async (req, res, next) => {
     try {

@@ -3,7 +3,7 @@ const { Sequelize: { Op } } = require('sequelize');
 
 const { authService } = require('../services');
 const {
-    appSettingsEnum: { REFRESH_TOKEN_CONTROL_MSG },
+    cronJobsEnum: { REFRESH_TOKEN_CONTROL_MSG },
     dateEnum: { DAYS }, JWTEnum: { D10_FOR_CRON },
     folderFileNamesEnum: { REFRESH_TOKEN_CONTROL }
 } = require('../constants');

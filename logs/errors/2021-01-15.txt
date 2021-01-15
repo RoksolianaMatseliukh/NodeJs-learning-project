@@ -1,0 +1,240 @@
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "timestamp": "2021-01-15 19:35:54",
+  "label": "app"
+}
+{
+  "message": "wrong email or password",
+  "code": 400,
+  "customCode": 4007,
+  "level": "error",
+  "timestamp": "2021-01-15 19:44:01",
+  "label": "app"
+}
+{
+  "message": "\"password\" is not allowed",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 19:44:37",
+  "label": "app"
+}
+{
+  "message": "permission denied",
+  "code": 403,
+  "customCode": 4031,
+  "level": "error",
+  "timestamp": "2021-01-15 19:46:51",
+  "label": "app"
+}
+{
+  "message": "\"value\" must be a number",
+  "code": 400,
+  "customCode": 4004,
+  "level": "error",
+  "timestamp": "2021-01-15 19:49:11",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 19:56:04",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 19:56:48",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 19:56:51",
+  "label": "app"
+}
+{
+  "message": "\"name\" is required",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:06:59",
+  "label": "app"
+}
+{
+  "message": "\"age\" must be greater than 17",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:07:13",
+  "label": "app"
+}
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "timestamp": "2021-01-15 20:08:12",
+  "label": "app"
+}
+{
+  "message": "\"name\" is not allowed",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:08:17",
+  "label": "app"
+}
+{
+  "message": "\"car_id\" is required",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:08:42",
+  "label": "app"
+}
+{
+  "message": "\"password\" is not allowed",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:08:49",
+  "label": "app"
+}
+{
+  "message": "not valid token",
+  "code": 401,
+  "customCode": 4011,
+  "level": "error",
+  "timestamp": "2021-01-15 20:09:29",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 20:09:34",
+  "label": "app"
+}
+{
+  "message": "not valid token",
+  "code": 401,
+  "customCode": 4011,
+  "level": "error",
+  "timestamp": "2021-01-15 20:10:12",
+  "label": "app"
+}
+{
+  "message": "\"car_id\" is required",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:11:18",
+  "label": "app"
+}
+{
+  "message": "user already have same car",
+  "code": 400,
+  "customCode": 4006,
+  "level": "error",
+  "timestamp": "2021-01-15 20:11:28",
+  "label": "app"
+}
+{
+  "message": "not valid token",
+  "code": 401,
+  "customCode": 4011,
+  "level": "error",
+  "timestamp": "2021-01-15 20:13:33",
+  "label": "app"
+}
+{
+  "message": "\"car_id\" is not allowed",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:14:26",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 20:14:31",
+  "label": "app"
+}
+{
+  "message": "user already have same car",
+  "code": 400,
+  "customCode": 4006,
+  "level": "error",
+  "timestamp": "2021-01-15 20:14:48",
+  "label": "app"
+}
+{
+  "message": "not valid token",
+  "code": 401,
+  "customCode": 4011,
+  "level": "error",
+  "timestamp": "2021-01-15 20:15:53",
+  "label": "app"
+}
+{
+  "message": "\"car_id\" is not allowed",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:15:59",
+  "label": "app"
+}
+{
+  "message": "\"value\" must be a number",
+  "code": 400,
+  "customCode": 4004,
+  "level": "error",
+  "timestamp": "2021-01-15 20:16:32",
+  "label": "app"
+}
+{
+  "message": "id doesn't exists",
+  "code": 404,
+  "customCode": 4041,
+  "level": "error",
+  "timestamp": "2021-01-15 20:16:38",
+  "label": "app"
+}
+{
+  "message": "not found route",
+  "code": 404,
+  "customCode": 4043,
+  "level": "error",
+  "timestamp": "2021-01-15 20:17:03",
+  "label": "app"
+}
+{
+  "message": "\"car_id\" is not allowed",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:19:08",
+  "label": "app"
+}
+{
+  "message": "\"model\" is required",
+  "code": 400,
+  "customCode": 4002,
+  "level": "error",
+  "timestamp": "2021-01-15 20:25:30",
+  "label": "app"
+}

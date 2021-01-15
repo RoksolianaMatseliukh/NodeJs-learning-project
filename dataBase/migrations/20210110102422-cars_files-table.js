@@ -1,4 +1,8 @@
-const { dataBaseEnum: { ID }, dateEnum: { NOW }, tableNamesEnum: { CARS, CARS_FILES } } = require('../../constants');
+const {
+    dataBaseEnum: { ID },
+    dateEnum: { NOW },
+    tableNamesEnum: { CARS, CARS_FILES }
+} = require('../../constants');
 
 module.exports = {
     up: async (queryInterface, Sequelize) => {

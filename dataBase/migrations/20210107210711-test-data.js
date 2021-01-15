@@ -1,5 +1,5 @@
-const { tableNamesEnum: { CARS, USERS } } = require('../../constants');
 const { passwordHelper: { hash } } = require('../../helpers');
+const { tableNamesEnum: { CARS, USERS } } = require('../../constants');
 
 module.exports = {
     // eslint-disable-next-line no-unused-vars

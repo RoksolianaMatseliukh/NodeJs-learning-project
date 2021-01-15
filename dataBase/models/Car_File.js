@@ -1,4 +1,8 @@
-const { dateEnum: { NOW }, modelNamesEnum: { CAR_FILE }, tableNamesEnum: { CARS_FILES } } = require('../../constants');
+const {
+    dateEnum: { NOW },
+    modelNamesEnum: { CAR_FILE },
+    tableNamesEnum: { CARS_FILES }
+} = require('../../constants');
 
 module.exports = (client, DataTypes) => {
     const Car = client.define(

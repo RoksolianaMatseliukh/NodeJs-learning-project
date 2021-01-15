@@ -6,6 +6,7 @@ const {
         EMAIL_ALREADY_EXISTS_CC,
         ENTITY_NOT_FOUND_CC,
         NO_TOKEN_CC,
+        NOT_FOUND_ROUTE_CC,
         NOT_VALID_FILE_EXTENSION_CC,
         NOT_VALID_TOKEN_CC,
         PERMISSION_DENIED_CC,
@@ -21,6 +22,7 @@ const {
         EMAIL_ALREADY_EXISTS,
         ID_NOT_FOUND,
         NO_TOKEN,
+        NOT_FOUND_ROUTE,
         NOT_VALID_FILE_EXTENSION,
         NOT_VALID_TOKEN,
         PERMISSION_DENIED,
@@ -115,5 +117,11 @@ module.exports = {
         code: NOT_FOUND,
         customCode: NO_TOKEN_CC,
         message: NO_TOKEN
+    },
+
+    NOT_FOUND_ROUTE: {
+        code: NOT_FOUND,
+        customCode: NOT_FOUND_ROUTE_CC,
+        message: NOT_FOUND_ROUTE
     }
 };

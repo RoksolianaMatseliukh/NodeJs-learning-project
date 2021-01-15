@@ -18,6 +18,7 @@ userRouter.post('/',
 userRouter.post('/refresh',
     authMiddlewares.checkToken(REFRESH_TOKEN, REFRESH_TOKEN_SECRET),
     authController.createNewTokenPair);
+
 userRouter.post('/logout', authController.logout);
 
 module.exports = userRouter;

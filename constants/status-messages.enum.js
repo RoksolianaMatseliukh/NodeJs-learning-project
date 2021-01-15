@@ -7,6 +7,7 @@ module.exports = {
     EMAIL_ALREADY_EXISTS: 'email already exists',
     ID_NOT_FOUND: 'id doesn\'t exists',
     NO_TOKEN: 'no token',
+    NOT_FOUND_ROUTE: 'not found route',
     NOT_VALID_FILE_EXTENSION: 'file extension isn\'t valid',
     NOT_VALID_TOKEN: 'not valid token',
     PERMISSION_DENIED: 'permission denied',

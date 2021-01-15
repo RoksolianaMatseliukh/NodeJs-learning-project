@@ -1,0 +1,72 @@
+{
+  "message": "3 registered users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:23:00",
+  "label": "cron-job: registered-users-control"
+}
+{
+  "message": "1 logged in users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:23:00",
+  "label": "cron-job: logged-in-users-control"
+}
+{
+  "message": "0 token pairs was deleted",
+  "level": "info",
+  "timestamp": "2021-01-15 20:23:00",
+  "label": "cron-job: refresh-token-control"
+}
+{
+  "message": "3 registered users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:24:00",
+  "label": "cron-job: registered-users-control"
+}
+{
+  "message": "2 logged in users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:24:00",
+  "label": "cron-job: logged-in-users-control"
+}
+{
+  "message": "0 token pairs was deleted",
+  "level": "info",
+  "timestamp": "2021-01-15 20:24:00",
+  "label": "cron-job: refresh-token-control"
+}
+{
+  "message": "3 registered users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:25:00",
+  "label": "cron-job: registered-users-control"
+}
+{
+  "message": "2 logged in users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:25:00",
+  "label": "cron-job: logged-in-users-control"
+}
+{
+  "message": "0 token pairs was deleted",
+  "level": "info",
+  "timestamp": "2021-01-15 20:25:00",
+  "label": "cron-job: refresh-token-control"
+}
+{
+  "message": "3 registered users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:26:00",
+  "label": "cron-job: registered-users-control"
+}
+{
+  "message": "5 token pairs was deleted",
+  "level": "info",
+  "timestamp": "2021-01-15 20:26:00",
+  "label": "cron-job: refresh-token-control"
+}
+{
+  "message": "0 logged in users per 2021-01-15",
+  "level": "info",
+  "timestamp": "2021-01-15 20:26:00",
+  "label": "cron-job: logged-in-users-control"
+}

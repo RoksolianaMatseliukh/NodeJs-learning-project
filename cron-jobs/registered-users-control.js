@@ -2,7 +2,7 @@ const dayjs = require('dayjs');
 const { Sequelize: { Op } } = require('sequelize');
 
 const {
-    appSettingsEnum: { REGISTERED_USERS_MSG },
+    cronJobsEnum: { REGISTERED_USERS_MSG },
     dateEnum: { DAY },
     folderFileNamesEnum: { REGISTERED_USERS_CONTROL }
 } = require('../constants');
