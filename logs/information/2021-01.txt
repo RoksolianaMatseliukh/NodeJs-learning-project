@@ -70,3 +70,15 @@
   "timestamp": "2021-01-15 20:26:00",
   "label": "cron-job: logged-in-users-control"
 }
+{
+  "message": "2 registered users per 2021-01-16",
+  "level": "info",
+  "label": "cron-job: registered-users-control",
+  "timestamp": "2021-01-17 00:00:00"
+}
+{
+  "message": "0 logged in users per 2021-01-16",
+  "level": "info",
+  "label": "cron-job: logged-in-users-control",
+  "timestamp": "2021-01-17 00:00:00"
+}
